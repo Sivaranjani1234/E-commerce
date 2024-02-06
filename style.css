@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(rgba(151, 93, 120, 0.247),rgba(219, 30, 109, 0.979)) ,url(https://plus.unsplash.com/premium_photo-1663837827409-894a60bcbb48?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+header{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+div a{
+    padding: 10px;
+    color: palevioletred;    
+}
+header p {
+    font-family:cursive;
+    font-weight: 1000;
+    font-size: large;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-left: 250px;
+    color: rgb(209, 52, 104); 
+}
+header img{
+    padding-left: 20px;
+}
+.card{
+    width: 220px;
+    padding-top: 2px;
+    margin:30px 10px;
+    border:9px solid palevioletred;
+    border-radius: 14px;
+    font-size: medium;
+    position: relative;
+    float: left;
+}
+.b1{
+    background-color: palevioletred;
+    color: aliceblue;
+    padding: 2px;
+    position: absolute;
+    bottom: 120px;
+    border:none;
+}
+.b2{
+    border: none;
+    position: absolute;
+    bottom: 120px;
+    right:0px;
+    background-color: palevioletred;
+    padding: 2PX;
+    color: white;
+}
+.page1{
+    margin: 100px 0px;
+    padding-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 50%;
+}
+.card h3{
+    text-align: center;
+}
+ header div a:hover {
+   color: black;
+}

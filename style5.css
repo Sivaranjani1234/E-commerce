@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(rgba(151, 93, 120, 0.247),rgba(219, 30, 109, 0.979)) ,url(https://plus.unsplash.com/premium_photo-1663837827409-894a60bcbb48?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.card{
+    width: 220px;
+    padding-top: 2px;
+    border:9px solid palevioletred;
+    border-radius: 14px;
+    font-size: medium;
+    position: relative;
+    float: left;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.b1{
+    background-color: palevioletred;
+    color: aliceblue;
+    padding: 2px;
+    position: absolute;
+    bottom: 120px;
+    border:none;
+}
+.b2{
+    border: none;
+    position: absolute;
+    bottom: 120px;
+    right:0px;
+    background-color: palevioletred;
+    padding: 2PX;
+    color: white;
+}
+.card h3{
+    text-align: center;
+}
+.b3{
+    background-color: rgb(209, 121, 150);
+    color: aliceblue;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 20px;   
+}
+.b4{
+        background-color: rgb(179, 110, 133);
+        color: aliceblue;
+        padding: 5px;
+        border:none;
+        border-radius: 5px;
+        margin: 5px;
+        margin-left: 10px;   
+    }
+    .card p{
+        text-align: center;
+    }
